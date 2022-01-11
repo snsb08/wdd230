@@ -6,9 +6,11 @@
 }
 p {
   color: rgb(126, 21, 224);
+  font-family: "Saira Condensed", sans-serif;
 }
 h1 {
   color: rgb(147, 165, 123);
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 header {
   background-color: aquamarine;
