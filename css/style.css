@@ -3,17 +3,20 @@
   margin: 0 auto;
 
   display: block;
+  font-family: "Saira Condensed", sans-serif;
+  color: #480355;
 }
 p {
-  color: rgb(126, 21, 224);
-  font-family: "Saira Condensed", sans-serif;
+  color: #480355;
 }
+
 h1 {
-  color: rgb(147, 165, 123);
-  font-family: "Mochiy Pop P One", sans-serif;
+  color: #480355;
+  font-family: "Ruslan Display", cursive;
 }
+
 header {
-  background-color: aquamarine;
+  background-color: #81d2c7;
   border: #ccc solid 1px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -36,7 +39,7 @@ ul {
   border-color: burlywood;
 }
 footer {
-  background-color: aquamarine;
+  background-color: #b5bad0;
   border: #ccc solid 1px;
   border-radius: 10px;
   margin-bottom: 30px;
