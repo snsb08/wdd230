@@ -4,6 +4,7 @@
 
   display: block;
   font-family: "Saira Condensed", sans-serif;
+  text-align: center;
   color: #480355;
 }
 p {
@@ -12,7 +13,7 @@ p {
 
 h1 {
   color: #480355;
-  font-family: "Ruslan Display", cursive;
+  
 }
 
 header {
@@ -22,13 +23,11 @@ header {
   margin-bottom: 30px;
   box-shadow: 5px 5px 5px #999;
   padding: 10px;
-  display: grid;
-  grid-template-columns: 110px auto;
-  text-align: center;
   align-items: center;
 }
+
 img {
-  width: 150px;
+  width: 100px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgb(54, 54, 56);
 }
@@ -37,7 +36,10 @@ ul {
   border-bottom: 3px dashed;
   padding: 30px;
   border-color: burlywood;
+  padding-left: 0;
 }
+
+
 footer {
   background-color: #b5bad0;
   border: #ccc solid 1px;
@@ -45,5 +47,4 @@ footer {
   margin-bottom: 30px;
   box-shadow: 5px 5px 5px #999;
   padding: 10px;
-  text-align: center;
 }
