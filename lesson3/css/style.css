@@ -97,6 +97,12 @@ nav a:hover {
   margin: auto;
 }
 
+.logoindex {
+  width: 50%;
+  margin: 30px;
+  margin-top: 0;
+}
+
 .colorchart {
   align-items: center;
   width: 100%;
