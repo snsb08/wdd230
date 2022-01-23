@@ -19,7 +19,7 @@ h3 {
   color: rgb(182, 128, 35);
 }
 main {
-  grid-template-columns: 1 fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 img {
