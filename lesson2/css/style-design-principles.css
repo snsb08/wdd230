@@ -6,17 +6,28 @@ footer {
   background-color: rgb(190, 157, 98);
 }
 
-h1,
-h2 {
+h1 {
   color: rgb(0, 0, 0);
   font-family: "Lobster Two", cursive;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
   text-align: center;
   margin: 5px;
   padding: 5px;
 }
 
 h3 {
-  color: rgb(182, 128, 35);
+  /* color: rgb(182, 128, 35); */
+  color: rgb(122, 81, 8);
+  color: rgb(23, 66, 45);
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
 }
 main {
   grid-template-columns: 1fr 1fr 1fr;
@@ -24,7 +35,7 @@ main {
 
 img {
   width: 100%;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 .page-grid {
@@ -80,5 +91,9 @@ img {
   }
   .box-3 {
     grid-column: span 1;
+  }
+
+  p {
+    font-size: 20px;
   }
 }
