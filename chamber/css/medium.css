@@ -1,0 +1,115 @@
+/* 37.5em or 35rem? */
+@media only screen and (min-width: 32.5em) {
+  /* nav button {
+    display: none;
+  } */
+
+  nav ul#navList {
+    /* display: flex; for large only*/
+    /* justify-content: flex-end; */
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .hideBase {
+    display: block;
+  }
+
+  #content > main > section:nth-child(1) {
+    grid-column: 1/-1;
+    grid-row: 1;
+    width: auto;
+  }
+
+  #content > main > section:nth-child(2) {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  #content > main > section:nth-child(3) {
+    grid-column: 2;
+    grid-row: 5;
+    width: auto;
+  }
+
+  #content > main > section:nth-child(4) {
+    grid-row: 2;
+    grid-column: 1/-1;
+  }
+
+  #content > main > section:nth-child(5) {
+    grid-column: 1/-1;
+    grid-row: 3;
+    width: auto;
+  }
+
+  #content > main > section:nth-child(6) {
+    grid-column: 1/-1;
+    grid-row: 4;
+  }
+
+  footer {
+    grid-template-rows: 100px 50px;
+  }
+
+  #footer1 {
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr;
+    grid-template-rows: 30px 30px 30px;
+  }
+
+  .logoFooter {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+  }
+
+  #footer1 > p:nth-child(3),
+  h2 {
+    grid-column: 2;
+    text-align: left;
+  }
+  #footer1 > p:nth-child(4) {
+    grid-row: 1;
+    grid-column: 3;
+  }
+
+  #footer1 > p:nth-child(5),
+  p:nth-child(6) {
+    grid-column: 3;
+  }
+
+  #footer2 {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 25px 25px;
+    font-size: 12px;
+  }
+
+  #dateModified {
+    grid-column: 1/-1;
+  }
+
+  #footer2 > p:nth-child(1) {
+    text-align: right;
+    /* border-right: solid rgb(61, 57, 57); */
+  }
+
+  #footer2 > p:nth-child(3) {
+    text-align: left;
+    /* border-left: solid rgb(61, 57, 57); */
+  }
+
+  /* end of media query */
+}
