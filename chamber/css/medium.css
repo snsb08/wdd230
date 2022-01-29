@@ -65,7 +65,7 @@
 
   #footer1 {
     display: grid;
-    grid-template-columns: 100px 2fr 1fr;
+    grid-template-columns: 150px 2fr 1fr;
     grid-template-rows: 30px 30px 30px;
   }
 
