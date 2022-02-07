@@ -11,16 +11,29 @@
   border-radius: 10px;
 }
 
+/* #heroSection div {
+  position: absolute;
+  color: yellow;
+  padding: 20px;
+} */
+
 p {
   font-size: 16px;
 }
+
+#monTue {
+  background-color: #fcf810;
+  font-size: 30px;
+  text-align: center;
+}
+
 header {
   /* display: flex; */
   /* flex-flow: column; */
   /* align-items: center; */
   display: grid;
   grid-template-columns: 55px 1fr 1fr 50px;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto;
   text-align: center;
   /* justify-items: center; */
   padding: 10px;
@@ -50,8 +63,9 @@ h1 {
 
 #todayDate {
   grid-column: 1/-1;
-  grid-row: 2/2;
+  grid-row: -1;
   background-color: #68e6dbbb;
+  height: 40px;
 }
 
 nav {
@@ -75,6 +89,11 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  position: absolute; /* changes 2/5 */
+  right: 50px;
+  left: 50px;
+  top: 0;
+  background-color: #68e6dcfc;
 }
 
 /* code from lesson 4 to test: */
@@ -92,7 +111,11 @@ nav ul li.active {
 }
 
 nav ul li a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: #00072d;
+  color: #fcf810;
+  padding: 1em;
+  box-shadow: 0 0 20px rgb(165, 226, 24);
 }
 
 nav ul {
@@ -119,6 +142,14 @@ nav ul.open {
   display: block;
 }
 
+.icon {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+/* Main*/
+
 section {
   margin: 20px;
   border: solid;
@@ -127,14 +158,36 @@ section {
   height: 100px;
 }
 
+#heroSection {
+  /* position: relative; */
+  /* display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr; */
+  height: auto;
+}
+
+#heroSection div {
+  /* position: relative; */
+  position: absolute;
+  color: yellow;
+  padding: 20px;
+}
+
+/* #heroSection h2,
+h3 {
+
+} */
+
+#heroSection img {
+  width: 100%;
+  /* position: absolute; */
+}
+
 .hideBase {
   display: none;
 }
 
-.icon {
-  width: 30px;
-  height: 30px;
-}
+/* Footer */
 
 footer {
   background-color: #68e6dbbb;
