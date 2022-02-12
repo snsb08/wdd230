@@ -66,6 +66,7 @@ h1 {
   grid-row: -1;
   background-color: #68e6dbbb;
   height: 40px;
+  font-size: x-large;
 }
 
 nav {
@@ -155,7 +156,8 @@ section {
   border: solid;
   background-color: #68e6dc4b;
   padding: 10px;
-  height: 100px;
+  /* height: 100px; */
+  height: auto;
 }
 
 #heroSection {
@@ -169,7 +171,7 @@ section {
 #heroSection div {
   /* position: relative; */
   position: absolute;
-  color: yellow;
+  /* color: yellow; */
   padding: 20px;
 }
 
@@ -180,11 +182,23 @@ h3 {
 
 #heroSection img {
   width: 100%;
-  /* position: absolute; */
 }
+
+/* #heroImage img {
+  width: 100%;
+  /* position: absolute; */
+/* } */
 
 .hideBase {
   display: none;
+}
+
+.spotlight {
+  margin: 0;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(6, 66, 85);
 }
 
 /* Footer */
@@ -192,9 +206,9 @@ h3 {
 footer {
   background-color: #68e6dbbb;
   border: #ccc solid 1px;
-  border-radius: 10px;
+  border-radius: 0 0 20px 20px;
   margin-bottom: 30px;
-  box-shadow: 5px 5px 5px #999;
+  /* box-shadow: 5px 5px 5px #999; */
   padding: 10px;
   margin-bottom: 0;
   text-align: center;

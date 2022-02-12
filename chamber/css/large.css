@@ -1,5 +1,14 @@
 /* @media only screen and (min-width: 64rem) */
 @media only screen and (min-width: 60em) {
+  body {
+    /* background-color: #68e6dc4b; */
+    background-color: rgba(238, 238, 93, 0.233);
+  }
+  #content {
+    border: solid 0.5em;
+    border-radius: 25px;
+  }
+
   nav button {
     display: none;
   }
@@ -21,6 +30,7 @@
   nav ul {
     position: relative;
     background-color: transparent;
+    right: auto;
   }
 
   nav {
@@ -38,7 +48,7 @@
 
   h1 {
     grid-column: 2;
-    font-size: 16px;
+    font-size: 24px;
   }
 
   /* Main content */
@@ -46,12 +56,16 @@
   main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr;*/
   }
 
   /* section {
-    height: min-max ();
+    height: auto;
   } */
+
+  .heroImage {
+    margin: 0;
+  }
 
   #content > main > section:nth-child(1) {
     grid-column: 2;

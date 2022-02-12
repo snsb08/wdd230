@@ -22,6 +22,7 @@
     <link href="css/large.css" rel="stylesheet" />
     <script defer src="js/meetgreet.js"></script>
     <script defer src="js/javascript.js"></script>
+    <script defer src="js/windchill.js"></script>
 
     <link rel="shortcut icon" href="images/favicon.ico" />
   </head>
@@ -30,7 +31,7 @@
       <p id="monTue"></p>
       <header>
         <img
-          src="images/logo_npb.jpg"
+          src="images/logo_npb.webp"
           alt="logo of North Palm Beach Chamber of Commerce"
           class="logo"
         />
@@ -69,17 +70,81 @@
             <h2>Welcome to North Palm Beach</h2>
             <h3>"The best place to live under the sun"</h3>
           </div>
-          <img
+          <!-- <img
             src="images/npbIntracostal.jpg"
             alt="Picture of North Palm Beach "
             class="heroImage"
-          />
+          /> -->
+          <figure class="heroImage">
+            <img
+              src="images/wdd230-org.jpg"
+              alt="people in a meeting"
+              sizes="50vw"
+              srcset="
+                images/wdd230-small.jpg   200w,
+                images/wdd230-medium.jpg  400w,
+                images/wdd230-large.jpg  1100w
+              "
+            />
+          </figure>
         </section>
-        <section>Event</section>
-        <section>Weather</section>
-        <section>News Release</section>
-        <section>Spotlight</section>
-        <section class="hideBase">Join</section>
+        <section>
+          <h2>Ribbon Cutting</h2>
+          <h3>🚲Trek Bikes</h3>
+          <p>
+            Join us for the official opening of Trek Bikes, Wednesday Feb 23 at
+            11am.
+          </p>
+        </section>
+        <section>
+          <h2>Weather</h2>
+          <img src="images/weather.png" alt="sun and cloud" />
+          <p>Current weather: <span id="weather">49</span></p>
+          <p>Wind Speed: <span id="windSpeed">6</span> mph</p>
+          <p>Wind Chill: <span id="windChill">wind chill js</span></p>
+        </section>
+        <section>
+          <h2>News Release</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            vel sint cumque blanditiis delectus exercitationem est omnis
+            provident et voluptates cupiditate consequatur molestias, fugit
+            neque, reiciendis magnam? Quis maxime labore mollitia omnis qui
+            aliquid assumenda nulla magnam, modi porro maiores vitae asperiores
+            iure. Minima similique eaque veniam reprehenderit quas qui.
+          </p>
+        </section>
+        <section>
+          <section class="spotlight">
+            <h2>Water Damage Restoration</h2>
+
+            <h3>Water damage is not a diy job!</h3>
+            <p>
+              waterdamagerestorationnorthpalmbeach.com
+              <br />(561)418-6692
+            </p>
+          </section>
+          <section class="spotlight">
+            <h2>Paris in Town</h2>
+
+            <h3>Bakery and Café</h3>
+            <p>www.parisintown.com <br />(561)626-6017</p>
+          </section>
+          <section class="spotlight hideBase">
+            <h2>Palm Beach Athletic Wear & Yoga</h2>
+
+            <h3>Try Antigravity Yoga!</h3>
+
+            <p>www.yogapbaw.com <br />(561)329-1711</p>
+          </section>
+        </section>
+        <section class="hideBase">
+          <h2>Join Us!</h2>
+          <p>
+            Discover how to join the chamber of commerce and how it will benefit
+            your organization!
+          </p>
+        </section>
       </main>
       <footer>
         <!-- logo
@@ -92,7 +157,7 @@
         -last modification (js) -->
         <div id="footer1">
           <img
-            src="images/logo_npb.jpg"
+            src="images/logo_npb.webp"
             alt="logo of North Palm Beach Chamber of Commerce"
             class="logoFooter"
           />
