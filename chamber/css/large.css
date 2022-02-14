@@ -103,6 +103,14 @@
     display: block;
   }
 
+  .weather1 img {
+    width: 200px;
+  }
+
+  .weather1 p {
+    text-align: left;
+  }
+
   /* footer */
 
   #footer2 {

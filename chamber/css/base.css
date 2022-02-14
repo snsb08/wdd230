@@ -200,6 +200,22 @@ h3 {
   border-radius: 10px;
   box-shadow: 3px 3px 3px rgb(6, 66, 85);
 }
+.weather1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.weather1 p {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.weather1 img {
+  width: 180px;
+}
+.weather2 {
+  border-top-style: solid;
+}
 
 /* Footer */
 
