@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+img {
+  border: 2px solid cyan;
+  /* filter: blur(0.1em); */
+  /* transition: filter 0.5s; */
+  min-width: 50px;
+  min-height: 50px;
+}
