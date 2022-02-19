@@ -17,6 +17,13 @@
   padding: 20px;
 } */
 
+#discovermain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+}
+
 p {
   font-size: 16px;
 }
@@ -215,6 +222,15 @@ h3 {
 }
 .weather2 {
   border-top-style: solid;
+}
+
+#discovermain picture img {
+  width: 80%;
+}
+
+#discovermain .label {
+  font-weight: bold;
+  font-size: large;
 }
 
 /* Footer */
