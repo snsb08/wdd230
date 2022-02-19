@@ -88,7 +88,7 @@
     padding-left: 0;
   }
 
-  #discovermain picture {
+  #discovermain figure {
     /* border: solid; */
     margin: 20px;
     background-color: #68e6dbbb;
@@ -99,7 +99,7 @@
     font-size: medium;
   }
 
-  #discovermain picture:hover {
+  #discovermain figure:hover {
     background-color: #fcf810;
     font-size: large;
     padding-bottom: 10px;
@@ -107,13 +107,13 @@
     font-weight: bold;
   }
 
-  #discovermain picture img {
+  #discovermain figure img {
     opacity: 0.9;
     width: 100%;
     transition: filter 1s;
   }
 
-  #discovermain picture img:hover {
+  #discovermain figure img:hover {
     border-radius: 50px;
     box-shadow: 0 0 20px #fcf810;
     opacity: 1;
