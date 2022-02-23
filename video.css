@@ -1,0 +1,18 @@
+h1 {
+  color: blueviolet;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.video {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+}
