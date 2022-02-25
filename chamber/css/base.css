@@ -299,7 +299,8 @@ form label.membership {
 form input.submitBtn {
   border: none;
   background-color: #ff9100;
-  color: white;
+  color: #eaf7f6;
+  font-size: 25px;
   font-weight: bold;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -307,6 +308,7 @@ form input.submitBtn {
   width: 96%;
   /* width 96% matches the size for mobile view. for larger view is too much so we use max width */
   max-width: 20rem;
+  box-shadow: 5px 10px 15px #141e22;
 }
 
 form label.top input:required {
