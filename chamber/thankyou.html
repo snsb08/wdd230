@@ -54,43 +54,13 @@
           <p id="todayDate">Date here 2022</p>
           
         </header>
-        <main id="joinmain">
-          <h1>Join us!</h1>
-          <form method="get" action="thankyou.html">
-            <fieldset>
-              <legend>New Member Information</legend>
-              <label class="top">
-                First Name*: <input type="text" name="fname" required>
-              </label>
-              <label class="top">
-                Last Name*: <input type="text" name="lname" required>
-              </label>
-              <label class="top">
-                Business Position Title: <input type="text" name="position" pattern="[a-zA-z-\s]{7,}">
-              </label> 
-              <!-- add pattern to business title. only alpha chr, hyphens, spaces. min 7 chr -->
-              <label class="top"> Email*: <input type="email" name="email" placeholder="me@email.com"  required /></label>
-              <label class="top">
-                Cell Phone: <input type="tel" name="phone" required
-              /></label>
-              <label class="top">Business Name/ Title: <input type="text" required></label>
-            </fieldset>
-            <fieldset>
-              <legend>Membership Level</legend>
-              <label class="membership"><input type="radio" name="level"  value="np_member">NP Membership</label>
-              <label class="membership"><input type="radio" name="level"  value="bronze">Bronze Membership</label>
-              <label class="membership"><input type="radio" name="level"  value="silver">Silver Membership</label>
-              <label class="membership"><input type="radio" name="level"  value="gold">Gold Membership</label>
-            </fieldset>
-            <fieldset> <legend>My Business</legend> 
-              <label class="top">Business Description<input type="textarea"></label>
-            </fieldset>
-            <!-- hidden field. current date and time when form was loaded -->
-             <p type="hidden" class="dateModified"></p>
-             <input type="submit" value="become a member" class="submitBtn">
-           
-
-          </form>
+        <main >
+          <div id="thankyoumain">
+          <h1 class="welcome">Welcome!</h1>
+          <h2>Thank you for joining us!</h2>
+          <p class="soon">We will contact you soon.</p>
+          </div>
+          
         </main>
         <footer>
         

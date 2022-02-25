@@ -1,20 +1,25 @@
-/* @media only screen and (min-width: 64rem) */
 @media only screen and (min-width: 60em) {
   body {
-    /* background-color: #68e6dc4b; */
     background-color: rgba(238, 238, 93, 0.233);
   }
   #content {
     border: solid 0.5em;
     border-radius: 25px;
   }
-
-  nav button {
-    display: none;
+  h1 {
+    grid-column: 2;
+    font-size: 24px;
   }
+
+  /* -----HEADER----------------------- */
   header {
     grid-template-columns: 200px 1fr 2fr 1fr;
     grid-template-rows: 1fr 50px;
+  }
+
+  /* -----NAVIGATION------------------- */
+  nav button {
+    display: none;
   }
 
   nav ul#navList {
@@ -46,55 +51,46 @@
     width: 150px;
   }
 
-  h1 {
-    grid-column: 2;
-    font-size: 24px;
-  }
+  /* -----MAIN------------------------- */
 
-  /* Main content */
-
-  main {
+  #homemain {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr;*/
   }
 
-  /* section {
-    height: auto;
-  } */
-
   .heroImage {
     margin: 0;
   }
 
-  #content > main > section:nth-child(1) {
+  #content > #homemain > section:nth-child(1) {
     grid-column: 2;
     grid-row: 1/3;
     height: auto;
   }
 
-  #content > main > section:nth-child(2) {
+  #content > #homemain > section:nth-child(2) {
     grid-column: 1;
     grid-row: 1;
   }
 
-  #content > main > section:nth-child(3) {
+  #content > #homemain > section:nth-child(3) {
     grid-column: 1;
     grid-row: 2;
   }
 
-  #content > main > section:nth-child(4) {
+  #content > #homemain > section:nth-child(4) {
     grid-row: 3;
     grid-column: 2;
   }
 
-  #content > main > section:nth-child(5) {
+  #content > #homemain > section:nth-child(5) {
     grid-column: 3;
     grid-row: 1/4;
     height: auto;
   }
 
-  #content > main > section:nth-child(6) {
+  #content > #homemain > section:nth-child(6) {
     grid-column: 1;
     grid-row: 3;
   }
@@ -111,7 +107,15 @@
     text-align: left;
   }
 
-  /* footer */
+  form {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  form label.membership {
+    padding: 0.4rem 0;
+  }
+  /* -----FOOTER----------------------- */
 
   #footer2 {
     font-size: 16px;

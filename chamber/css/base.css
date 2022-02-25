@@ -1,3 +1,4 @@
+/* -----GENERAL---------------------- */
 #content {
   max-width: 1500px;
   margin: 0 auto;
@@ -11,21 +12,19 @@
   border-radius: 10px;
 }
 
-/* #heroSection div {
-  position: absolute;
-  color: yellow;
-  padding: 20px;
-} */
-
-#discovermain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 2em;
-}
-
 p {
   font-size: 16px;
+}
+
+h1,
+h2 {
+  font-family: "Mochiy Pop P One", sans-serif;
+  /* padding: 30px; */
+}
+
+h1 {
+  font-size: 10px;
+  text-align: left;
 }
 
 #monTue {
@@ -33,7 +32,7 @@ p {
   font-size: 30px;
   text-align: center;
 }
-
+/* -----HEADER----------------------- */
 header {
   /* display: flex; */
   /* flex-flow: column; */
@@ -57,16 +56,7 @@ header {
   grid-row: 1/2;
 }
 
-h1,
-h2 {
-  font-family: "Mochiy Pop P One", sans-serif;
-  /* padding: 30px; */
-}
-
-h1 {
-  font-size: 10px;
-  text-align: left;
-}
+/* -----NAVIGATION------------------- */
 
 #todayDate {
   grid-column: 1/-1;
@@ -155,9 +145,14 @@ nav ul.open {
   height: 30px;
   padding: 10px;
 }
+/* -----MAIN------------------------- */
 
-/* Main*/
+main {
+  background-color: #37505c;
+  color: white;
+}
 
+/* -.-HOME-.-................. */
 section {
   margin: 20px;
   border: solid;
@@ -191,11 +186,6 @@ h3 {
   width: 100%;
 }
 
-/* #heroImage img {
-  width: 100%;
-  /* position: absolute; */
-/* } */
-
 .hideBase {
   display: none;
 }
@@ -224,6 +214,25 @@ h3 {
   border-top-style: solid;
 }
 
+/* #heroSection div {
+  position: absolute;
+  color: yellow;
+  padding: 20px;
+} */
+
+/* #heroImage img {
+  width: 100%;
+  /* position: absolute; */
+/* } */
+
+/* -.-DISCOVER-.-............. */
+#discovermain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+}
+
 #discovermain figure img {
   width: 80%;
 }
@@ -232,8 +241,132 @@ h3 {
   font-weight: bold;
   font-size: large;
 }
+/* -.-DIRECTORY-.-................... */
+/* -.-JOIN-.-........................ */
 
-/* Footer */
+#joinmain h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+form fieldset {
+  border: solid rgb(0, 0, 0);
+  background-color: #68e6dc4b;
+  padding: 15px;
+}
+
+form legend {
+  color: #ff9100;
+  font-weight: bold;
+  background-color: #eaf7f6d7;
+  box-shadow: 5px 5px 15px #37505c;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 10px;
+}
+
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  color: white;
+
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(243, 239, 239, 0.1);
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.486);
+}
+
+form label.membership {
+  display: block;
+  padding: 0.75rem 0;
+  color: white;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #ff9100;
+  color: white;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  /* width 96% matches the size for mobile view. for larger view is too much so we use max width */
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+/* -.-THANK YOU PAGE-.-.............. */
+
+#thankyoumain {
+  height: 300px;
+  text-align: center;
+  color: white;
+}
+#thankyoumain h2 {
+  text-align: center;
+}
+
+.welcome {
+  animation: welcome 10s 1 forwards;
+  text-align: center;
+}
+
+.soon {
+  animation: soon 10s 1 forwards;
+}
+
+@keyframes welcome {
+  0% {
+    color: #68e6dbbb;
+    font-size: 40px;
+  }
+
+  50% {
+    color: #fcf810;
+    font-size: 50px;
+  }
+
+  100% {
+    color: #ff9100;
+    font-size: 50px;
+  }
+}
+
+@keyframes soon {
+  0% {
+    display: none;
+  }
+  100% {
+    display: block;
+    text-decoration: underline;
+  }
+}
+
+/* -.-CONTACT-.-..................... */
+
+/* -----FOOTER----------------------- */
 
 footer {
   background-color: #68e6dbbb;

@@ -10,10 +10,13 @@
     padding: 20px;
   } */
 
+  /* -----GENERAL---------------------- */
   h1 {
     font-size: 16px;
   }
 
+  /* -----HEADER----------------------- */
+  /* -----NAVIGATION------------------- */
   nav ul#navList {
     /* display: flex; for large only*/
     /* justify-content: flex-end; */
@@ -30,8 +33,11 @@
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
   }
+  /* -----MAIN------------------------- */
 
-  main {
+  /* -.-HOME-.-................. */
+
+  #homemain {
     display: grid;
     grid-template-columns: 2fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
@@ -45,35 +51,35 @@
     height: auto;
   }
 
-  #content > main > section:nth-child(1) {
+  #content > #homemain > section:nth-child(1) {
     grid-column: 1/-1;
     grid-row: 1;
     width: auto;
   }
 
-  #content > main > section:nth-child(2) {
+  #content > #homemain > section:nth-child(2) {
     grid-column: 1;
     grid-row: 5;
   }
 
-  #content > main > section:nth-child(3) {
+  #content > #homemain > section:nth-child(3) {
     grid-column: 2;
     grid-row: 5;
     width: auto;
   }
 
-  #content > main > section:nth-child(4) {
+  #content > #homemain > section:nth-child(4) {
     grid-row: 2;
     grid-column: 1/-1;
   }
 
-  #content > main > section:nth-child(5) {
+  #content > #homemain > section:nth-child(5) {
     grid-column: 1/-1;
     grid-row: 3;
     width: auto;
   }
 
-  #content > main > section:nth-child(6) {
+  #content > #homemain > section:nth-child(6) {
     grid-column: 1/-1;
     grid-row: 4;
   }
@@ -83,6 +89,8 @@
     color: yellow;
     padding: 20px;
   } */
+
+  /* -.-DISCOVER-.-............. */
 
   #discovermain {
     padding-left: 0;
@@ -119,6 +127,8 @@
     opacity: 1;
     margin-bottom: 20px;
   }
+
+  /* -----FOOTER----------------------- */
 
   footer {
     grid-template-rows: 100px 50px;
