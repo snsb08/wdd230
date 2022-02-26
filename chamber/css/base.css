@@ -299,7 +299,7 @@ form label.membership {
 form input.submitBtn {
   border: none;
   background-color: #ff9100;
-  color: #eaf7f6;
+  color: black;
   font-size: 25px;
   font-weight: bold;
   border-radius: 1rem;
