@@ -156,7 +156,8 @@ main {
 section {
   margin: 20px;
   border: solid;
-  background-color: #68e6dc4b;
+  /* background-color: #68e6dc4b; */
+  background-color: #68e6dcc0;
   padding: 10px;
   /* height: 100px; */
   height: auto;
@@ -251,7 +252,7 @@ h3 {
 
 form fieldset {
   border: solid rgb(0, 0, 0);
-  background-color: #68e6dc4b;
+  background-color: #68e6dcc0;
   padding: 15px;
 }
 
@@ -278,16 +279,21 @@ form label.top select {
   font-size: 1rem;
   border: solid 1px #999;
   border-radius: 4px;
-  color: white;
-
   padding: 0.75rem;
-  width: 100%;
-  max-width: 20rem;
+  width: 90%;
+  /* min-width: 15rem; */
   background-color: rgba(243, 239, 239, 0.1);
 }
 
 ::placeholder {
   color: rgba(255, 255, 255, 0.486);
+}
+
+textarea {
+  background-color: rgba(243, 239, 239, 0.1);
+  /* color: black; */
+  width: 90%;
+  height: 200px;
 }
 
 form label.membership {
