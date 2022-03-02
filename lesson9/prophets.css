@@ -1,0 +1,43 @@
+h1,
+footer {
+  color: #a1400f;
+  background-color: #fcde9c;
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+}
+
+h2 {
+  color: #fcde9c;
+  font-family: "Praise", cursive;
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+p {
+  margin: 0;
+  color: white;
+  font-family: "Catamaran", sans-serif;
+}
+
+.cards {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+}
+
+section {
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: #572e42;
+  display: grid;
+  place-items: center;
+  /* width: 400px; */
+}
+
+section img {
+  width: 80%;
+  margin: 10px;
+}
