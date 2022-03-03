@@ -21,6 +21,19 @@ function displayProphets (prophet) {
     let portrait = document.createElement("img");
     let birthday = document.createElement("p");
     let place = document.createElement("p")
+    let order = ""
+
+    // could you write this using a switch statement?
+    if (prophet.order ===1) {
+        order = `${prophet.order}st`;
+    } else if (prophet.order ===2) {
+        order = `${prophet.order}nd`;
+    } else if (prophet.order ===3) {
+        order = `${prophet.order}rd`;
+    } else {
+        order = `${prophet.order}th`;
+    }
+        
 
     //change textContent of h2 to prophet's full name
     // h2.textContent = prophet.name+ " " + prophet.lastname;
@@ -33,7 +46,7 @@ function displayProphets (prophet) {
     //build image attributes  ---------------need to check this
     portrait.setAttribute("src", prophet.imageurl);
     portrait.setAttribute("alt", "Portrait of" + prophet.name + " " + prophet.lastname);
-    portrait.setAttribute("alt", `"Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President"`);
+    portrait.setAttribute("alt", `"Portrait of ${prophet.name} ${prophet.lastname} - ${order} Latter-day President"`);
     portrait.setAttribute("loading", "lazy");
 
     //add/append the section(card) with the h2 element
