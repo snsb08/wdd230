@@ -286,6 +286,10 @@ table:nth-child(odd) {
   width: 50%;
 }
 
+td {
+  width: 20%;
+}
+
 /* -.-JOIN-.-........................ */
 
 #joinmain h1 {
