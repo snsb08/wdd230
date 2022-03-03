@@ -1,0 +1,89 @@
+{
+    "npb_businesses": [
+        {
+            "name": "Paris in Town",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "Palm Beach Atletic Wear and Yoga",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "boutique or other store",
+            "address": "npb, 33408",
+            "phone": "(561) 622-0963",
+            "website": "url"
+
+        },
+        {
+            "name": "Cod & Capers Seafood",
+            "address": "1201 US HWY 1, North Palm Beach, FL 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "gift shop",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "Trek Bicycle",
+            "address": "11221 US HWY 1 S, North Palm Beach, FL 33408",
+            "phone": "(561) 948-5973",
+            "website": "url"
+
+        },
+        {
+            "name": "dentist",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "bank",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "italian market",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "water restoration",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "car repair place",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        },
+        {
+            "name": "restaurant",
+            "address": "npb, 33408",
+            "phone": "561",
+            "website": "url"
+
+        }
+
+    ]
+}
