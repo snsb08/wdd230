@@ -243,6 +243,42 @@ h3 {
   font-size: large;
 }
 /* -.-DIRECTORY-.-................... */
+
+/* .business_cards {
+  color: red;
+} */
+
+.business_cards section {
+  border: solid rgb(0, 0, 0);
+  background-color: #68e6dcc0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(6, 66, 85);
+}
+/* 
+.business_cards h2 {
+
+} */
+
+/* .business_list section {
+  border: solid rgb(0, 0, 0);
+  background-color: #68e6dcc0;
+  background-color: #fcf810;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(6, 66, 85);
+} */
+
+table:nth-child(even) {
+  background-color: #f76f8e;
+  width: 50%;
+}
+
+table:nth-child(odd) {
+  background-color: #68e6dcc0;
+  width: 50%;
+}
+
 /* -.-JOIN-.-........................ */
 
 #joinmain h1 {
