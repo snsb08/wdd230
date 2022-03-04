@@ -2,22 +2,44 @@ const requestURL = "data.json";
 const cards = document.querySelector(".business_cards");
 const buslist = document.querySelector(".business_list");
 
+// fetch(requestURL)
+// .then(function (response) {
+//     return response.json();
+// })
+// .then(function(jsonObject) {
+//     console.table (jsonObject); 
+//     const npb_businesses = jsonObject['npb_businesses']; 
+//     npb_businesses.forEach(displayBusinesses);
+//     npb_businesses.forEach(displayBusinessesList)
+// })
+
 fetch(requestURL)
 .then(function (response) {
     return response.json();
 })
 .then(function(jsonObject) {
     console.table (jsonObject); 
-    const npb_businesses = jsonObject['npb_businesses']; 
+    let npb_businesses = jsonObject['npb_businesses']; 
     npb_businesses.forEach(displayBusinesses);
-    npb_businesses.forEach(displayBusinessesList)
+
+    document.getElementById("list_view").addEventListener("click", () => {
+        npb_businesses.forEach(displayBusinessesList)
+        cards.innerHTML = ""
+    });
+
+    document.getElementById("card_view").addEventListener("click", () => {
+        npb_businesses.forEach(displayBusinesses)
+        buslist.innerHTML = ""
+        
+    });
 })
+    
 
 
 function displayBusinesses (npb_business) {
     let card = document.createElement("section");
     let name = document.createElement("h2");
-    // let logo = document.createElement("img");
+    let logo = document.createElement("img");
     let address = document.createElement("p");
     let phone = document.createElement("p");
     let website = document.createElement("p")
@@ -27,42 +49,27 @@ function displayBusinesses (npb_business) {
     phone.textContent = `${npb_business.phone}`;
     website.textContent = `${npb_business.website}`;
 
-    // logo.setAttribute
+    logo.setAttribute("src", npb_business.logo);
+    logo.setAttribute("alt", `Logo of ${npb_business.name}`)
+    logo.setAttribute("loading", "lazy");
 
-    card.appendChild(name);
+    // card.appendChild(name);
+    card.appendChild(logo);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
 
 
     cards.appendChild(card);
+    // cards.prepend(card);
     
 }
 
-// function displayBusinessesList (npb_businessList) {
-//     let blist = document.createElement("section");
-//     let namel = document.createElement("h2");
-//     // let logo = document.createElement("img");
-//     let addressl = document.createElement("p");
-//     let phonel = document.createElement("p");
-//     let websitel = document.createElement("p")
+function removedisplayBusinesses () {
+    let card = document.createElement("section");
+    cards.prepend(card);
+}
 
-//     namel.textContent = `${npb_businessList.name}`;
-//     addressl.textContent = `${npb_businessList.address}`;
-//     phonel.textContent = `${npb_businessList.phone}`;
-//     websitel.textContent = `${npb_businessList.website}`;
-
-//     // logo.setAttribute
-
-//     blist.appendChild(namel);
-//     blist.appendChild(addressl);
-//     blist.appendChild(phonel);
-//     blist.appendChild(websitel);
-
-
-//     buslist.appendChild(blist);
-    
-// }
 
 function displayBusinessesList (npb_businessList) {
     let blist = document.createElement("table");
@@ -88,3 +95,4 @@ function displayBusinessesList (npb_businessList) {
     buslist.appendChild(blist);
     
 }
+

@@ -2,6 +2,7 @@
     "npb_businesses": [
         {
             "name": "Paris in Town",
+            "logo": "images/logo_paris.webp",
             "address": "11460 US Hwy One, North Palm Beach, FL 33408",
             "phone": "561-626-6017",
             "website": "www.parisintown.com"
@@ -9,79 +10,90 @@
         },
         {
             "name": "Palm Beach Atletic Wear and Yoga",
+            "logo": "images/logo_yoga.jpeg",
             "address": "11951 US Highway 1 Ste 101, npb, FL 33408",
             "phone": "(561) 329-1711",
             "website": "www.yogapbaw.com"
 
         },
         {
-            "name": "boutique or other store",
-            "address": "npb, 33408",
-            "phone": "(561) 622-0963",
-            "website": "url"
+            "name": "Frigate's",
+            "logo": "images/logo_frigates.png",
+            "address": "400 US Highway 1, North Palm Beach, FL 33408",
+            "phone": "(561) 855-7497",
+            "website": "www.frigatesnpb.com"
 
         },
         {
             "name": "Cod & Capers Seafood",
+            "logo": "images/logo_seafood.webp",
             "address": "1201 US HWY 1, North Palm Beach, FL 33408",
-            "phone": "561",
-            "website": "url"
+            "phone": "(561) 622-0963",
+            "website": "www.codandcapers.com"
 
         },
         {
-            "name": "gift shop",
-            "address": "npb, 33408",
-            "phone": "561",
-            "website": "url"
+            "name": "The Back Porch",
+            "logo": "images/backporchlogo.png",
+            "address": "12220 US Highway 1, North Palm Beach, FL 33408",
+            "phone": "(561) 799-1878",
+            "website": "www.thebackporchstore.com"
 
         },
         {
-            "name": "Trek Bicycle",
-            "address": "11221 US HWY 1 S, North Palm Beach, FL 33408",
-            "phone": "(561) 948-5973",
-            "website": "url"
+            "name": "Allora Pizza & Pasta",
+            "logo": "images/logo_allora.png",
+            "address": "420 US-1, North Palm Beach, FL 33408",
+            "phone": "561-296-9295",
+            "website": "allorapizza.com"
 
         },
         {
-            "name": "dentist",
-            "address": "npb, 33408",
-            "phone": "561",
-            "website": "url"
+            "name": "Roots Hair Studio",
+            "logo": "images/logo_hairstudio.png",
+            "address": "601 Northlake Blvd, North Palm Beach, Florida 33408",
+            "phone": "(561) 844-1540",
+            "website": "www.rootsnorthpalm.com"
 
         },
         {
-            "name": "bank",
-            "address": "npb, 33408",
-            "phone": "561",
-            "website": "url"
+            "name": "Jupiter Donuts",
+            "logo": "images/logo_donuts.png",
+            "address": "420 US Highway 1, North Palm Beach Florida 33408",
+            "phone": "(561) 557-5291",
+            "website": "jupiterdonuts.com"
 
         },
         {
-            "name": "italian market",
-            "address": "npb, 33408",
-            "phone": "561",
-            "website": "url"
+            "name": "Doris Italian Market",
+            "logo": "images/logo_italian.png",
+            "address": "11239 US Highway 1, North Palm Beach, FL 33408",
+            "phone": "(561) 517-8488",
+            "website": "dorismarket.com/"
 
         },
         {
-            "name": "water restoration",
-            "address": "npb, 33408",
-            "phone": "561",
-            "website": "url"
+            "name": "Sara's Kitchen",
+            "logo": "images/logo_sara.png",
+            "address": "2000 Pga Blvd, Palm Beach Gardens, FL 33408",
+            "phone": "(561) 540-2822",
+            "website": "www.saraskitchenpga.com"
 
         },
         {
-            "name": "car repair place",
-            "address": "npb, 33408",
-            "phone": "561",
-            "website": "url"
+            "name": "Pelican Auto Wash",
+            "logo": "images/logo-carwash.png",
+            "address": "11370 US Highway 1, North Palm Beach, FL 33408",
+            "phone": "(561) 622-6800",
+            "website": "www.pelicanautowash.com"
 
         },
         {
-            "name": "restaurant",
-            "address": "npb, 33408",
-            "phone": "561",
-            "website": "url"
+            "name": "La Bamba",
+            "logo": "images/logo_labamba.png",
+            "address": "730 US Highway 1, North Palm Beach, FL 33408",
+            "phone": "(561) 882-1718",
+            "website": "labamba123.com"
 
         }
 
