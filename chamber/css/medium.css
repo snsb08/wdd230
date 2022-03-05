@@ -143,6 +143,10 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 
+  .business_cards img {
+    width: auto;
+  }
+
   /* -----FOOTER----------------------- */
 
   footer {
