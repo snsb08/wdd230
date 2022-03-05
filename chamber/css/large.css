@@ -115,6 +115,13 @@
   form label.membership {
     padding: 0.4rem 0;
   }
+
+  /* -.-DIRECTORY-.-................... */
+
+  .select_view {
+    display: none;
+  }
+
   /* -----FOOTER----------------------- */
 
   #footer2 {

@@ -244,10 +244,20 @@ h3 {
 }
 /* -.-DIRECTORY-.-................... */
 
+.select_view {
+  width: 140px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
 .business_cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
+}
+
+.business_cards img {
+  width: 100%;
 }
 
 .business_cards section {

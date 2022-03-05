@@ -128,6 +128,21 @@
     margin-bottom: 20px;
   }
 
+  /* -.-DIRECTORY-.-................... */
+
+  .business_list {
+    display: grid;
+    place-items: center;
+  }
+
+  .business_list table {
+    width: 50%;
+  }
+
+  .business_cards {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
   /* -----FOOTER----------------------- */
 
   footer {
