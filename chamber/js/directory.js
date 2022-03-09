@@ -23,11 +23,14 @@ fetch(requestURL)
     npb_businesses.forEach(displayBusinesses);
 
     document.getElementById("list_view").addEventListener("click", () => {
+        buslist.innerHTML = ""
         npb_businesses.forEach(displayBusinessesList)
         cards.innerHTML = ""
+
     });
 
     document.getElementById("card_view").addEventListener("click", () => {
+        cards.innerHTML = ""
         npb_businesses.forEach(displayBusinesses)
         buslist.innerHTML = ""
         

@@ -98,7 +98,6 @@ nav ul {
   background-color: #68e6dcfc;
 }
 
-/* code from lesson 4 to test: */
 nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
@@ -107,16 +106,15 @@ nav ul li a {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-nav ul li.active {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
-
-nav ul li a:hover {
-  /* background-color: rgba(0, 0, 0, 0.3); */
+nav ul li.active a {
   background-color: #00072d;
   color: #fcf810;
   padding: 1em;
+}
+
+nav ul li a:hover {
+  background-color: #00072d;
+  color: #fcf810;
   box-shadow: 0 0 20px rgb(165, 226, 24);
 }
 
@@ -252,6 +250,10 @@ h3 {
   width: 140px;
   margin: 0 auto;
   padding-top: 10px;
+}
+
+.select_view #card_view {
+  background-color: #68e6dc7a;
 }
 
 .business_cards {
