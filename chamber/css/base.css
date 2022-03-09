@@ -27,6 +27,10 @@ h1 {
   text-align: left;
 }
 
+h2 {
+  font-weight: lighter;
+}
+
 #monTue {
   background-color: #fcf810;
   font-size: 30px;

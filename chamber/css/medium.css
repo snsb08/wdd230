@@ -105,6 +105,7 @@
     padding-bottom: 0;
     text-align: center;
     font-size: medium;
+    color: black;
   }
 
   #discovermain figure:hover {
@@ -142,6 +143,13 @@
   .business_cards {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
+
+  /* .business_cards section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+  } */
 
   .business_cards img {
     width: auto;
