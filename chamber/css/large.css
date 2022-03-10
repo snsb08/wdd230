@@ -99,6 +99,12 @@
     display: block;
   }
 
+  .spotlight {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
   .weather1 img {
     width: 200px;
   }
