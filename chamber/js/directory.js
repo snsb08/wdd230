@@ -46,11 +46,15 @@ function displayBusinesses (npb_business) {
     let address = document.createElement("p");
     let phone = document.createElement("p");
     let website = document.createElement("p")
+    let active = document.getElementById("card_view")
+    let notActive = document.getElementById("list_view")
 
     name.textContent = `${npb_business.name}`;
     address.textContent = `${npb_business.address}`;
     phone.textContent = `${npb_business.phone}`;
     website.textContent = `${npb_business.website}`;
+    active.classList.add("activebtn");
+    notActive.classList.remove("activebtn");
 
     logo.setAttribute("src", npb_business.logo);
     logo.setAttribute("alt", `Logo of ${npb_business.name}`)
@@ -81,11 +85,15 @@ function displayBusinessesList (npb_businessList) {
     let addressl = document.createElement("td");
     let phonel = document.createElement("td");
     let websitel = document.createElement("td")
+    let active = document.getElementById("list_view")
+    let notActive = document.getElementById("card_view")
 
     namel.textContent = `${npb_businessList.name}`;
     addressl.textContent = `${npb_businessList.address}`;
     phonel.textContent = `${npb_businessList.phone}`;
     websitel.textContent = `${npb_businessList.website}`;
+    active.classList.add("activebtn");
+    notActive.classList.remove("activebtn");
 
     // logo.setAttribute
 

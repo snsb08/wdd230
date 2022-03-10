@@ -252,8 +252,13 @@ h3 {
   padding-top: 10px;
 }
 
-.select_view #card_view {
+/* .select_view #card_view {
   background-color: #68e6dc7a;
+} */
+
+.activebtn {
+  background-color: #68e6dc7a;
+  box-shadow: 5px 5px 5px rgb(5, 5, 5);
 }
 
 .business_cards {
@@ -297,6 +302,7 @@ h3 {
   display: grid;
   /* place-items: center; */
   padding-bottom: 50px;
+  margin-top: 20px;
 }
 
 .business_list table {
