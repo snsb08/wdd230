@@ -8,7 +8,6 @@ if (dayToday >= 1 && dayToday <=2) {
     chamberMessage = "🤝 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
     document.querySelector('#monTue').innerHTML = chamberMessage;
 }  else {
-    document.getElementById("#monTue").style.display = "block";
-    // chamberMessage = "None"
+    document.getElementById("monTue").style.display = "none";
 }
 

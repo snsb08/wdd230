@@ -45,6 +45,8 @@
 
   .icon {
     grid-column: -1;
+    width: 50px;
+    height: 50px;
   }
 
   .logo {
@@ -95,8 +97,13 @@
     grid-row: 3;
   }
 
-  .hideBase {
-    display: block;
+  #heroSection h2 {
+    font-size: 25px;
+  }
+
+  #heroSection {
+    font-size: 20px;
+    text-align: center;
   }
 
   .spotlight {
@@ -105,9 +112,9 @@
     place-items: center;
   }
 
-  .weather1 img {
+  /* .weather1 img {
     width: 200px;
-  }
+  } */
 
   .weather1 p {
     text-align: left;
@@ -135,12 +142,12 @@
     /* display: flex;
     flex-wrap: wrap; */
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 100px 1fr 1fr;
+    grid-template-columns: 1fr 100px 1fr 1fr 1fr;
   }
 
   #dateModified {
     grid-row: 1;
-    grid-column: 4;
+    grid-column: 5;
   }
 
   /* end of media query */

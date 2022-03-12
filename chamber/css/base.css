@@ -49,6 +49,7 @@ header {
   padding: 10px;
   padding-bottom: 0;
   background-color: #68e6dbbb;
+  border-radius: 15px 15px 0 0;
 }
 
 .logo {
@@ -157,12 +158,22 @@ main {
 /* -.-HOME-.-................. */
 section {
   margin: 20px;
-  border: solid;
+  /* border: solid; */
   /* background-color: #68e6dc4b; */
+  box-shadow: 10px 10px 10px rgb(5, 5, 5);
   background-color: #68e6dcc0;
   padding: 10px;
   /* height: 100px; */
-  height: auto;
+  /* height: auto; */
+}
+
+section h2 {
+  text-align: center;
+  color: #ff9100;
+  background-color: #eaf7f6d7;
+  box-shadow: 5px 5px 15px #37505c;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 #heroSection {
@@ -170,7 +181,9 @@ section {
   /* display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr; */
-  height: auto;
+  /* height: auto; */
+  display: grid;
+  place-items: center;
 }
 
 #heroSection div {
@@ -186,6 +199,10 @@ h3 {
 } */
 
 #heroSection img {
+  width: 100%;
+}
+
+.heroImage {
   width: 100%;
 }
 
@@ -207,21 +224,37 @@ h3 {
   place-items: center;
 }
 
-.weather1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.spotlight h3 {
+  font-size: 15px;
 }
+
+.weather1 {
+  margin: 0;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(6, 66, 85);
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: #68e6dcc0;
+}
+
 .weather1 p {
   font-size: 20px;
   font-weight: bolder;
   text-align: center;
 }
 
-.weather1 img {
+/* .weather1 img {
   width: 180px;
-}
+} */
+
 .weather2 {
   border-top-style: solid;
+  text-align: center;
 }
 
 /* #heroSection div {
@@ -245,6 +278,7 @@ h3 {
 
 #discovermain figure img {
   width: 80%;
+  box-shadow: 3px 3px 10px rgb(6, 66, 85);
 }
 
 #discovermain .label {
