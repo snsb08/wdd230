@@ -20,8 +20,14 @@ fetch(requestURL)
 .then(function(jsonObject) {
     console.table (jsonObject); 
     let npb_businesses = jsonObject['npb_businesses']; 
-    npb_businesses.forEach(displayBusinesses);
+    // npb_businesses.forEach(displayBusinesses);
 
+    if (window.innerWidth > 520 && window.innerWidth < 1000) {
+        npb_businesses.forEach(displayBusinessesList)
+    } else {
+        npb_businesses.forEach(displayBusinesses);
+    }
+    
     document.getElementById("list_view").addEventListener("click", () => {
         buslist.innerHTML = ""
         npb_businesses.forEach(displayBusinessesList)
