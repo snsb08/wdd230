@@ -1,7 +1,7 @@
 
 //from Weather API:
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=4166253&units=imperial&appid=14bc144c3bedc0da79c9db0fd5a322e4";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4166253&units=imperial&appid=14bc144c3bedc0da79c9db0fd5a322e4";
 let windchill = ""
 
 fetch(apiURL)
