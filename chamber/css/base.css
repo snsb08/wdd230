@@ -167,13 +167,45 @@ section {
   /* height: auto; */
 }
 
+#homemain > section p {
+  text-align: center;
+}
+
+#homemain > section:nth-child(4) p {
+  text-align: left;
+}
+
+#homemain > section:nth-child(4) p strong {
+  color: #37505c;
+  font-size: large;
+}
+
 section h2 {
   text-align: center;
   color: #ff9100;
   background-color: #eaf7f6d7;
   box-shadow: 5px 5px 15px #37505c;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
+}
+
+section h2 a {
+  color: #ff9100;
+  text-decoration: none;
+}
+
+#homemain > section:nth-child(2) p,
+section.hideBase p {
+  /* text-align: center; */
+  padding: 20px;
+}
+
+#homemain > section.hideBase > h2 {
+  border-radius: 30px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  font-size: larger;
 }
 
 #heroSection {
