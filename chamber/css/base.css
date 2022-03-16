@@ -301,12 +301,12 @@ h3 {
 /* } */
 
 /* -.-DISCOVER-.-............. */
-#discovermain {
+/* #discovermain {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 2em;
-}
+} */
 
 #discovermain figure img {
   width: 80%;
@@ -317,6 +317,41 @@ h3 {
   font-weight: bold;
   font-size: large;
 }
+
+.demographics {
+  box-shadow: 10px 10px 10px rgb(5, 5, 5);
+}
+
+.demographics th,
+td {
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(5, 5, 5);
+}
+.demographics tbody tr:nth-child(odd) {
+  background-color: #68e6dcf3;
+}
+
+.demographics tbody td:nth-child(even) {
+  text-align: right;
+}
+
+.demographics tbody th {
+  background-color: #ff9100;
+  padding: 20px;
+}
+
+.demographics thead th {
+  background-color: #00072d;
+  font-size: 30px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+#discovermain > div.discovertxt > section:nth-child(5) > img {
+  width: 100%;
+}
+
 /* -.-DIRECTORY-.-................... */
 
 .select_view {

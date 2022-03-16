@@ -129,6 +129,63 @@
     padding: 0.4rem 0;
   }
 
+  /* -.-DISCOVER-.-............. */
+
+  #discovermain {
+    display: grid;
+    grid-template-columns: auto 50px 550px;
+    grid-template-rows: 1fr 1fr;
+    /* align-items: center; */
+    padding-left: 2em;
+    /* column-gap: 50px; */
+  }
+
+  .discovertxt {
+    grid-row: 1 / 3;
+    grid-column: 1;
+    margin-top: 20px;
+  }
+
+  #discovermain > div.discovertxt > section,
+  table {
+    margin-top: 150px;
+  }
+
+  #discovermain > div.discovertxt > section:nth-child(1) > p {
+    padding: 30px;
+  }
+
+  .map {
+    margin: 50px auto 50px 95px;
+    width: 400px;
+  }
+
+  .discovertxt p {
+    font-size: 20px;
+  }
+
+  .discoverimgs {
+    grid-column: 3;
+    grid-row: 1/ -1;
+  }
+
+  .dicoverimgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2em;
+  }
+
+  /* #discovermain figure img {
+  width: 80%;
+  box-shadow: 3px 3px 10px rgb(6, 66, 85);
+} */
+
+  /* #discovermain .label {
+  font-weight: bold;
+  font-size: large;
+} */
+
   /* -.-DIRECTORY-.-................... */
 
   /* .select_view {
