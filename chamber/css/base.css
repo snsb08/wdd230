@@ -348,10 +348,11 @@ h3 {
 }
 
 .demographics th,
-td {
+.demographics td {
   padding: 10px;
   box-shadow: 2px 2px 5px rgb(5, 5, 5);
 }
+
 .demographics tbody tr:nth-child(odd) {
   background-color: #68e6dcf3;
 }

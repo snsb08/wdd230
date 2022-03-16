@@ -9,7 +9,7 @@ fetch(apiURL)
     .then((jsObject) => {
         let currentTemp = document.querySelector('#weather');
         const weathericon = document.querySelector('#weathericon');
-        const caption = document.querySelector('figcaption');
+        const caption = document.querySelector('.figcaption');
         const windSpeed = document.querySelector('#windSpeed');
 
         currentTemp.textContent = jsObject.main.temp.toFixed(0);
