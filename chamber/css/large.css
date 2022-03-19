@@ -120,15 +120,6 @@
     text-align: left;
   }
 
-  form {
-    max-width: 700px;
-    margin: auto;
-  }
-
-  form label.membership {
-    padding: 0.4rem 0;
-  }
-
   /* -.-DISCOVER-.-............. */
 
   #discovermain {
@@ -191,6 +182,28 @@
   /* .select_view {
     display: none;
   } */
+
+  /* -.-Join-.-........................ */
+
+  #joinmain form {
+    max-width: 700px;
+    /* margin: auto; */
+    margin-left: 10%;
+  }
+
+  form label.membership {
+    padding: 0.4rem 0;
+  }
+
+  #joinmain {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  #joinmain div {
+    margin-right: 10%;
+    display: block;
+  }
 
   /* -.-CONTACT-.-..................... */
   #content > .contactmain > form {
