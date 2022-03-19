@@ -59,8 +59,8 @@ function displayBusinesses (npb_business) {
     address.textContent = `${npb_business.address}`;
     phone.textContent = `${npb_business.phone}`;
     website.textContent = `${npb_business.website}`;
-    active.classList.add("activebtn");
-    notActive.classList.remove("activebtn");
+    notActive.classList.add("notActivebtn");
+    active.classList.remove("notActivebtn");
 
     logo.setAttribute("src", npb_business.logo);
     logo.setAttribute("alt", `Logo of ${npb_business.name}`)
@@ -98,8 +98,8 @@ function displayBusinessesList (npb_businessList) {
     addressl.textContent = `${npb_businessList.address}`;
     phonel.textContent = `${npb_businessList.phone}`;
     websitel.textContent = `${npb_businessList.website}`;
-    active.classList.add("activebtn");
-    notActive.classList.remove("activebtn");
+    notActive.classList.add("notActivebtn");
+    active.classList.remove("notActivebtn");
 
     // logo.setAttribute
 

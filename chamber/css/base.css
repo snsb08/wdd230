@@ -13,7 +13,8 @@
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 h1,
@@ -177,7 +178,7 @@ section {
 
 #homemain > section:nth-child(4) p strong {
   color: #37505c;
-  font-size: large;
+  font-size: 20px;
 }
 
 section h2 {
@@ -192,6 +193,7 @@ section h2 {
 section h2 a {
   color: #ff9100;
   text-decoration: none;
+  display: block;
 }
 
 /* #homemain > section:nth-child(2) p,
@@ -200,7 +202,8 @@ section.hideBase p {
 /* padding: 20px;
 } */
 
-#homemain > section.hideBase > h2 {
+#homemain > section.hideBase > h2,
+.joinhero {
   border-radius: 30px;
   height: 50px;
   display: grid;
@@ -216,6 +219,8 @@ section.hideBase p {
   /* height: auto; */
   display: grid;
   place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 #heroSection div {
@@ -230,12 +235,27 @@ h3 {
 
 } */
 
+.joinhero {
+  height: 40%;
+  width: 40%;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  /* position: absolute; */
+}
+
+.joinhero a {
+  font-size: 15px;
+  /* display: block; */
+}
+
 #heroSection img {
   width: 100%;
 }
 
 .heroImage {
   width: 100%;
+  grid-column: 1/4;
+  grid-row: 1/5;
 }
 
 .hideBase {
@@ -391,7 +411,7 @@ h3 {
   background-color: #68e6dc7a;
 }
 
-.activebtn {
+.notActivebtn {
   background-color: #68e6dc7a;
   box-shadow: 5px 5px 5px rgb(5, 5, 5);
   background-image: linear-gradient(#68e6dcec, #47a098da);
@@ -446,7 +466,7 @@ h3 {
   box-shadow: 10px 10px 10px rgb(5, 5, 5);
   margin-bottom: 2px;
   width: 95%;
-  /* padding: 10px; */
+  padding: 10px;
 }
 
 table:nth-child(even) {
