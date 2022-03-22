@@ -26,6 +26,11 @@ header {
   padding-bottom: 0;
 }
 
+main {
+  background-color: #37505c;
+  color: white;
+}
+
 h1,
 h2 {
   font-family: "Mochiy Pop P One", sans-serif;
@@ -108,6 +113,28 @@ nav a:hover {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.chamber_h1 {
+  background-color: #68e6dbbb;
+  color: black;
+}
+
+.chamber_h2 {
+  text-align: center;
+  color: #ff9100;
+  background-color: #eaf7f6d7;
+  box-shadow: 5px 5px 15px #37505c;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+}
+
+.chamber_h3,
+.chamber_p {
+  background-color: #68e6dcc0;
+  color: white;
+  padding: 30px;
 }
 
 @media (min-width: 37.5em) {
