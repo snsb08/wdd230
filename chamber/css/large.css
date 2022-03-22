@@ -14,7 +14,6 @@
   /* -----HEADER----------------------- */
   header {
     grid-template-columns: 200px 1fr 2fr 1fr;
-    /* grid-template-rows: 1fr 50px; */
   }
 
   /* -----NAVIGATION------------------- */
@@ -58,7 +57,6 @@
   #homemain {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr;*/
   }
 
   .heroImage {
@@ -112,10 +110,6 @@
     place-items: center;
   }
 
-  /* .weather1 img {
-    width: 200px;
-  } */
-
   .weather1 p {
     text-align: left;
   }
@@ -126,9 +120,7 @@
     display: grid;
     grid-template-columns: auto 50px 550px;
     grid-template-rows: 1fr 1fr;
-    /* align-items: center; */
     padding-left: 2em;
-    /* column-gap: 50px; */
   }
 
   .discovertxt {
@@ -167,21 +159,7 @@
     padding-left: 2em;
   }
 
-  /* #discovermain figure img {
-  width: 80%;
-  box-shadow: 3px 3px 10px rgb(6, 66, 85);
-} */
-
-  /* #discovermain .label {
-  font-weight: bold;
-  font-size: large;
-} */
-
   /* -.-DIRECTORY-.-................... */
-
-  /* .select_view {
-    display: none;
-  } */
 
   /* -.-Join-.-........................ */
 
@@ -214,8 +192,6 @@
 
   #footer2 {
     font-size: 16px;
-    /* display: flex;
-    flex-wrap: wrap; */
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 100px 1fr 1fr 1fr;
   }
