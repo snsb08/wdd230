@@ -508,6 +508,10 @@ form label.top input:required:valid {
   display: none;
 }
 
+.hiddendate {
+  color: transparent;
+}
+
 /* -.-THANK YOU PAGE-.-.............. */
 
 #thankyoumain {

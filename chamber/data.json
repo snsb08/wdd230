@@ -2,58 +2,82 @@
     "npb_businesses": [
         {
             "name": "Paris in Town",
+            "subtitle": "Bakery and Café",
             "logo": "images/logo_paris.webp",
             "address": "11460 US Hwy One, North Palm Beach, FL 33408",
             "phone": "561-626-6017",
-            "website": "www.parisintown.com"
+            "website": "www.parisintown.com",
+            "clipart": "images/croissant_icon.webp",
+            "membership": "gold"
 
         },
         {
             "name": "Palm Beach Atletic Wear and Yoga",
+            "subtitle": "Try Antigravity Yoga!",
             "logo": "images/logo_yoga.webp",
             "address": "11951 US Highway 1 Ste 101, npb, FL 33408",
             "phone": "(561) 329-1711",
-            "website": "www.yogapbaw.com"
+            "website": "www.yogapbaw.com",
+            "clipart": "images/aerialyoga.webp",
+            "membership": "gold"
 
         },
         {
             "name": "Frigate's",
+            "subtitle": "Try our sushi!",
             "logo": "images/logo_frigates.webp",
             "address": "400 US Highway 1, North Palm Beach, FL 33408",
             "phone": "(561) 855-7497",
-            "website": "www.frigatesnpb.com"
+            "website": "www.frigatesnpb.com",
+            "clipart": "images/sushi.png",
+            "membership": "silver"
+
 
         },
         {
             "name": "Cod & Capers Seafood",
+            "subtitle": "Seafood Market and Eatery",
             "logo": "images/logo_seafood.webp",
             "address": "1201 US HWY 1, North Palm Beach, FL 33408",
             "phone": "(561) 622-0963",
-            "website": "www.codandcapers.com"
+            "website": "www.codandcapers.com",
+            "clipart": "images/seafood.webp",
+            "membership": "gold"
 
         },
         {
             "name": "The Back Porch",
+            "subtitle": "Gift Shop",
             "logo": "images/backporchlogo.webp",
             "address": "12220 US Highway 1, North Palm Beach, FL 33408",
             "phone": "(561) 799-1878",
-            "website": "www.thebackporchstore.com"
+            "website": "www.thebackporchstore.com",
+            "clipart": "images/gifts2.png",
+            "membership": "silver"
 
         },
         {
             "name": "Allora Pizza & Pasta",
+            "subtitle": "Try our signature pasta!",
             "logo": "images/logo_allora.webp",
             "address": "420 US-1, North Palm Beach, FL 33408",
             "phone": "561-296-9295",
-            "website": "allorapizza.com"
+            "website": "allorapizza.com",
+            "clipart": "images/pasta.png",
+            "membership": "silver"
 
         },
         {
             "name": "Roots Hair Studio",
+            "subtitle": "Get a fresh hairstyle!",
             "logo": "images/logo_hairstudio.webp",
             "address": "601 Northlake Blvd, North Palm Beach, Florida 33408",
             "phone": "(561) 844-1540",
-            "website": "www.rootsnorthpalm.com"
+            "website": "www.rootsnorthpalm.com",
+            "clipart": "images/haircut2.png",
+            "membership": "gold"
+
+            
 
         },
         {

@@ -1,6 +1,7 @@
 const requestURL = "data.json";
 const cards = document.querySelector(".business_cards");
 const buslist = document.querySelector(".business_list");
+// const spotlight = document.querySelector(".spotlightcontainer")
 
 // fetch(requestURL)
 // .then(function (response) {
@@ -113,3 +114,27 @@ function displayBusinessesList (npb_businessList) {
     
 }
 
+// function displayspotlight (spotlight) {
+//     let spotlight1 = document.querySelector(".spotlight")
+//     let title1 = document.createElement("h2")
+//     let subtitle1 = document.createElement("h3")
+//     let image1 = document.createElement("img")
+//     let web1 = document.createElement("p")
+//     let phone1 = document.createElement("p")
+
+//     title1.textContent = `${npb_businessList.name}`;
+//     subtitle1.textContent = `${npb_businessList.subtitle}`;
+//     web1.textContent = `${npb_businessList.website}`;
+//     phone1.textContent = `${npb_businessList.phone}`;
+
+//     image1.setAttribute("src", npb_business.clipart);
+//     image1.setAttribute("alt", `clipart for ${npb_business.name}`)
+//     image1.setAttribute("loading", "lazy");
+
+//     spotlight1.appendChild(title1);
+//     spotlight1.appendChild(subtitle1);
+//     spotlight1.appendChild(image1);
+//     spotlight1.appendChild(web1);
+//     spotlight1.appendChild(phone1);
+
+// }
