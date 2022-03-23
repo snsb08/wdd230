@@ -5,7 +5,7 @@
             "subtitle": "Bakery and Café",
             "logo": "images/logo_paris.webp",
             "address": "11460 US Hwy One, North Palm Beach, FL 33408",
-            "phone": "561-626-6017",
+            "phone": "(561) 626-6017",
             "website": "www.parisintown.com",
             "clipart": "images/croissant_icon.webp",
             "membership": "gold"
@@ -61,7 +61,7 @@
             "subtitle": "Try our signature pasta!",
             "logo": "images/logo_allora.webp",
             "address": "420 US-1, North Palm Beach, FL 33408",
-            "phone": "561-296-9295",
+            "phone": "(561) 296-9295",
             "website": "allorapizza.com",
             "clipart": "images/pasta.png",
             "membership": "silver"

@@ -1,4 +1,4 @@
-const requestURL = "data.json";
+const request = "data.json";
 const cards = document.querySelector(".business_cards");
 const buslist = document.querySelector(".business_list");
 // const spotlight = document.querySelector(".spotlightcontainer")
@@ -14,7 +14,7 @@ const buslist = document.querySelector(".business_list");
 //     npb_businesses.forEach(displayBusinessesList)
 // })
 
-fetch(requestURL)
+fetch(request)
 .then(function (response) {
     return response.json();
 })
