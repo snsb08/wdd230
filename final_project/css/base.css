@@ -338,6 +338,14 @@ form label textarea {
   padding: 1rem;
   margin: 1rem;
 }
+#services_main > div:nth-child(1) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* #services_main > div:nth-child(1) > ul li a {
+  background-color: #f76c5e;
+  text-decoration: none;
+} */
 
 /* -.-RECEPTION-.-............ */
 /* -.-MISSIONARY-.-........... */
@@ -346,7 +354,22 @@ form label textarea {
   width: 50%;
 }
 
-#mission_main > div:nth-child(2) > form > fieldset:nth-child(2) {
+/* #mission_main > div:nth-child(2) > form > fieldset:nth-child(2) {
+} */
+
+#thankyou_main {
+  background-image: url(../images/heart.webp);
+  background-size: contain;
+  padding: 1rem;
+}
+
+#thankyou_main {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#thankyou_main h2 {
+  background-color: var(--secondary);
 }
 
 /* -----FOOTER----------------------- */

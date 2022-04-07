@@ -95,7 +95,7 @@
     background-image: url(../images/ft_temple_large.jpg);
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-position: fixed;
+    /* background-position: fixed; */
     padding: 5%;
     gap: 30px;
   }
