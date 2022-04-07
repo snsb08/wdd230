@@ -9,7 +9,7 @@ fetch(data)
         return response.json();
     })
     .then(function (jsonObject) {
-        // console.table (jsonObject); //do I need this?
+        
         let temples = jsonObject['temples'];
         
         temples.forEach(displayTempleInfo);
@@ -74,7 +74,7 @@ function displayTempleInfo (displayTemple) {
     card.appendChild(email);
     card.appendChild(services);
     card.appendChild(history);
-    card.appendChild(ordinances);
+    // card.appendChild(ordinances);
     card.appendChild(session);
     card.appendChild(closure);
     card.appendChild(photo);
@@ -82,6 +82,7 @@ function displayTempleInfo (displayTemple) {
     cards.appendChild(card);
 
     let clicked = false;
+    
 //button clicked
     likeIt.addEventListener("click", () => {
         if (!clicked) {
@@ -90,21 +91,27 @@ function displayTempleInfo (displayTemple) {
             // likeIcon.classList.add("liked");
             thumbUp.setAttribute("class", "liked");
             countSpan.textContent++;
-            localStorage.setItem('likeIt', "liked" );
+            let storedclick = JSON.stringify(clicked);
+            localStorage.setItem('clicked', storedclick );
+            // localStorage.setItem('likeIt', "liked" );
+            let storedclicked = JSON.parse(localStorage.getItem("clicked"));
+            console.log(storedclicked)
             
-        } else if (localStorage == "liked") {
-            clicked = true;
-            // likeIcon.innerHTML = `thumb_up`;
-            // likeIcon.classList.add("liked");
-            thumbUp.setAttribute("class", "liked");
             
-        }
+        // } else if (storedclicked) {
+        //     clicked = true;
+        //     // likeIcon.innerHTML = `thumb_up`;
+        //     // likeIcon.classList.add("liked");
+        //     thumbUp.setAttribute("class", "liked");
+            
+         }
         else {
             clicked = false;
             // likeIcon.classList.remove("liked");
             thumbUp.setAttribute("class", "unliked");
             countSpan.textContent--;
-            localStorage.removeItem('likeIt');
+            // localStorage.removeItem('likeIt');
+            localStorage.removeItem('clicked');
         }
     });
 

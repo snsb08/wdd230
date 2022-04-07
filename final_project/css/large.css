@@ -139,6 +139,10 @@
   /* -.-RECEPTION-.-............ */
   /* -.-MISSIONARY-.-........... */
 
+  #mission_main > div:nth-child(2) > form {
+    width: 80%;
+  }
+
   /* -----FOOTER----------------------- */
 
   footer {

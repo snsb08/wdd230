@@ -377,12 +377,21 @@ form label textarea {
 
 /* -.-MISSIONARY-.-........... */
 
-#mission_main > div:nth-child(2) {
+/* #mission_main > div:nth-child(2) {
   width: 50%;
-}
+} */
 
 /* #mission_main > div:nth-child(2) > form > fieldset:nth-child(2) {
 } */
+
+/* #mission_main div {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+#mission_main div img {
+  width: 100%;
+}
 
 #thankyou_main {
   background-image: url(../images/heart.webp);

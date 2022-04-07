@@ -94,6 +94,17 @@
     width: 100%;
   }
 
+  #mission_main div {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+  }
+
+  #mission_main div img {
+    width: 90%;
+    padding: 2rem;
+  }
+
   /* -----FOOTER----------------------- */
 
   footer {
