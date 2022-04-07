@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reserve a room @Temple Inn</title>
+    <title>Temple Inn</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +25,6 @@
             alt="logo of Temple Inn & Suites"
             class="logo"
         /></a>
-        <!-- <h1>Get a peaceful rest</h1> -->
         <div class="icons">
           <a href="https://www.linkedin.com"
             ><img src="images/linkedin.png" alt="LinkedIn icon" class="icon"
@@ -37,32 +36,37 @@
         <nav>
           <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
           <ul id="navList">
-            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="temple.html">Temple</a></li>
             <li><a href="reservation.html">Reservation</a></li>
-            <li class="active"><a href="services.html">Services</a></li>
+            <li><a href="services.html">Services</a></li>
+            <ul class="subNavList">
+              <li><a href="reception.html">reception</a></li>
+              <li><a href="missionary.html">Temple Missionary</a></li>
+            </ul>
           </ul>
         </nav>
+        <!-- <p id="todayDate">Date here 2022</p> -->
       </header>
-      <main id="thankyou_main">
+      <main id="attributions_main">
         <div>
-          <h2>Thank You!</h2>
-          <p>We will contact you soon</p>
+          <h2>Attributions</h2>
+          <p>
+            The temple data and some pictures were taken from:
+            https://www.lds.org/temples/list
+          </p>
+          <p>
+            Some pictures taken from: https://pixabay.com/images/search/wedding/
+          </p>
+          <p>
+            Weather data was taken from:
+            https://openweathermap.org/api/one-call-api
+          </p>
         </div>
       </main>
       <footer>
         <div class="footer2">
-          <p>Copyright Temple Inn & Suites <a href="attribution.html"
-            >| Attributions</a</p>
-          <p id="dateModified">Last Updated date_updated time_updated</p>
-          <div class="icons_footer">
-            <a href="https://www.linkedin.com"
-              ><img src="images/linkedin.png" alt="LinkedIn icon" class="icon"
-            /></a>
-            <a href="https://www.facebook.com"
-              ><img src="images/facebook.png" alt="Facebook icon" class="icon"
-            /></a>
-          </div>
+          <p>Copyright Temple Inn & Suites</p>
         </div>
       </footer>
     </div>
