@@ -1,0 +1,117 @@
+@media only screen and (min-width: 32.5em) {
+  /* -----GENERAL---------------------- */
+
+  :root {
+    --primary: #f5f5f5;
+    --secondary: #eee0bf;
+    --accent1: #504746;
+    --accent2: #f76c5e;
+    --primary2: #f5f5f5e8;
+    --primary3: #f5f5f5ee;
+  }
+
+  /* -----HEADER----------------------- */
+
+  /* -----NAVIGATION------------------- */
+  nav ul#navList {
+    margin-left: 2vw;
+    /* border-left: 1px solid rgba(0, 0, 0, 0.3); */
+  }
+
+  nav ul {
+    width: 300px;
+    left: auto;
+  }
+
+  nav ul li a {
+    border: none;
+  }
+
+  /* -----MAIN------------------------- */
+
+  /* -.-HOME-.-................. */
+
+  #index_main {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    background-color: var(--primary);
+    padding: 10%;
+    gap: 30px;
+  }
+
+  #index_main > div:nth-child(1) {
+    /* make reservation */
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: var(--primary2);
+  }
+
+  #index_main > div:nth-child(2) {
+    /* contact info */
+    background-color: var(--primary2);
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  #index_main > div:nth-child(3) {
+    /* Temple Summary */
+    background-color: var(--primary2);
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  #index_main > div:nth-child(4) {
+    /* Weather card */
+    background-color: var(--primary2);
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  /* -.-TEMPLE-.-............... */
+
+  #temple_main {
+    background-image: url(../images/ft_window.jpg);
+    background-position: center;
+  }
+
+  .temple_cards section {
+    width: 70%;
+  }
+
+  /* -.-RESERVATION-.-.......... */
+  /* -.-SERVICES-.-............. */
+  /* -.-RECEPTION-.-............ */
+  /* -.-MISSIONARY-.-........... */
+
+  #mission_main > div:nth-child(2) {
+    /* background-image: url(../images/Kitchennette.jpg);
+    background-position: center;
+    background-size: cover; */
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+  }
+
+  /* -----FOOTER----------------------- */
+
+  footer {
+    padding: 2%;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer1 iframe {
+    width: 50%;
+    height: 20em;
+    padding: 2em;
+  }
+  .footer1 form {
+    width: 50%;
+  }
+  /* end of media query */
+}

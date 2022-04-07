@@ -1,0 +1,52 @@
+{
+    "temples": [
+        {
+            "name": "Tegucigalpa, Honduras Temple",
+            "address": "<strong>Address:</strong><br>Residencial Roble Oeste, <br> Boulevard Roble Oeste, 3ra Calle Sur., <br> Comayagüela, M.D.C., Francisco Morazán, Honduras",
+            "telephone": "<strong>Phone:</strong> (504) 2264-1212",
+            "email": "<strong>Email:</strong> tegushn@temple.com",
+            "services": "<strong>Services:</strong> <br>No clothing rental available,<br> No cafeteria available,<br> Patron housing available,<br> No distribution center nearby",
+            "history": "<strong>Milestones:</strong><br> Announced: 9 June 2006,<br> Groundbreaking: 12 September 2009,<br> Dedicated: 17 March 2013",
+            "ordinance": "ordinance schedule",
+            "session": "<strong>Session Schedule:</strong><br> Tuesday-Saturday 8am, 9:15am, 10:30am, 12pm, 2pm, 4pm",
+            "closure": "<strong>Temple Closure Schedule:</strong> <br>Saturday, 2 April 2022,<br> Monday, 13 June 2022 - Monday, 27 June 2022,<br> Saturday, 1 October 2022, <br>Monday, 7 November 2022 - Monday, 21 November 2022, <br>Saturday, 24 December 2022,<br> Saturday, 31 December 2022",
+            "photo": "images/hn_temple.jpeg"
+        },
+        {
+            "name": "Orlando, Florida Temple",
+            "address": "<strong>Address:</strong><br>9000 Windy Ridge Rd,<br> Windermere FL 34786-8347, United States",
+            "telephone": "<strong>Phone:</strong> 407-876-0022",
+            "email": "<strong>Email:</strong>orlandofl@temple.com",
+            "services": "<strong>Services:</strong> <br>Clothing rental available<br> No cafeteria available<br> No patron housing available<br> Distribution center nearby",
+            "history": "<strong>Milestones:</strong> <br> Announced: 6 April 1991 <br> Groundbreaking: 20 June 1992 <br> Dedicated: 9 October 1994",
+            "ordinance": "ordinance schedule",
+            "session": "<strong>Session Schedule:</strong><br> Every half hour on Tuesdays: 530-7:30pm, <br> Wednesdays-Fridays 9-11:30am, 1:30-3:30pm, 5:30-7:30pm,<br> Saturday: 9-11:30, 1-3:30", 
+            "closure": "<strong>Temple Closure Schedule:</strong> <br>Saturday, 2 April 2022 <br>Monday, 15 August 2022 - Monday, 12 December 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022",
+            "photo": "images/orlando_temple.jpeg"
+        },
+        {
+            "name": "Mesa, Arizona Temple",
+            "address": "<strong>Address:</strong><br>101 S LeSueur,<br> Mesa AZ 85204-1031, United States",
+            "telephone": "<strong>Phone:</strong> 480-833-1211",
+            "email": "<strong>Email:</strong>mesaaz@temple.com",
+            "services": "<strong>Services:</strong> <br>Clothing rental available,<br> No cafeteria available,<br> No patron housing available,<br> Distribution center nearby",
+            "history": "<strong>Milestones:</strong><br> Announced: 1 October 1919,<br> Groundbreaking: 25 April 1922,<br> Dedicated: 23 October 1927, <br>Rededicated: 15 April 1975,<br> Rededicated: 12 December 2021",
+            "ordinance": "ordinance schedule",
+            "session": "<strong>Session Schedule:</strong><br> Tuesdays-Saturdays: 7am, 7:45am, 8:30am, 9:15am, 10am, 10:45am, 11:30am, 12:15pm",
+            "closure": "<strong>Temple Closure Schedule:</strong><br> Saturday, 2 April 2022,<br> Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations), <br>Monday, 18 July 2022 - Monday, 1 August 2022,<br> Saturday, 1 October 2022,<br> Wednesday, 23 November 2022 (Limited Operations),<br> Thursday, 24 November 2022,<br> Saturday, 24 December 2022",
+            "photo": "images/mesa_temple.jpg"
+        },
+        {
+            "name": "Mexico City Temple",
+            "address": "<strong>Address:</strong><br>Avenida 510 #90,<br> Col. San Juan de Aragon,<br> 07950 México, Distrito Federal, Mexico",
+            "telephone": "<strong>Phone:</strong> (52) 55-5003-3700",
+            "email": "<strong>Email:</strong>mxcity@temple.com",
+            "services": "<strong>Services:</strong> <br>Clothing rental available,<br> No cafeteria available,<br> No patron housing available,<br> Distribution center nearby",
+            "history": "<strong>Milestones:</strong><br> Announced: 3 April 1976,<br> Groundbreaking: 25 November 1979, <br>Dedicated: 2 December 1983,<br> Rededicated: 16 November 2008, <br>Rededicated: 13 September 2015",
+            "ordinance": "ordinance schedule",
+            "session": "<strong>Session Schedule:</strong><br> Tuesdays-Saturdays: Every half hour 9am-8pm",
+            "closure": "<strong>Temple Closure Schedule:</strong><br> Saturday, 2 April 2022,<br> Monday, 27 June 2022 - Monday, 11 July 2022,<br> Saturday, 1 October 2022,<br> Saturday, 24 December 2022,<br> Saturday, 31 December 2022",
+            "photo": "images/mx_temple.jpg"
+        }
+    ]
+}

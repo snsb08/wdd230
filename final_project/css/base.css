@@ -1,0 +1,426 @@
+/* -----GENERAL---------------------- */
+
+/* Primary: #F5F5F5
+Secondary: #EEE0BF
+Accent 1: #504746
+Accent 2: #F76C5E
+ */
+
+:root {
+  --primary: #f5f5f5;
+  --secondary: #eee0bf;
+  --accent1: #504746;
+  --accent2: #f76c5e;
+  /* --primary2: #f5f5f5b4; */
+  --primary2: #f5f5f5e8;
+
+  --primary3: #f5f5f5ee;
+}
+
+h2 {
+  font-family: "Petit Formal Script", cursive;
+  color: var(--accent2);
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.hover {
+  color: var(--accent2);
+}
+
+p {
+  padding: 20px;
+  background-color: var(--primary2);
+}
+
+#content {
+  font-family: "Glory", sans-serif;
+  background-color: var(--primary);
+  color: var(--accent1);
+}
+
+/* -----HEADER----------------------- */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+.icon {
+  grid-column: 4;
+  grid-row: 1/2;
+}
+
+/* -----NAVIGATION------------------- */
+
+#todayDate {
+  grid-column: 1/-1;
+  grid-row: -1;
+  height: 40px;
+  font-size: x-large;
+}
+
+nav {
+  grid-column: 4/4;
+  grid-row: 1/2;
+}
+
+nav button {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--accent2);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  top: 0;
+  background-color: var(--primary);
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  color: var(--accent2);
+}
+
+nav ul li a:hover {
+  background-color: var(--accent2);
+  color: var(--accent1);
+  /* box-shadow: 0 0 20px rgb(165, 226, 24); */
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburguerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburguerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburguerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburguerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.alertbanner {
+  position: sticky;
+  display: grid;
+  /* flex-direction: row; */
+  grid-template-columns: 4fr 1fr;
+  background-color: var(--accent1);
+  color: var(--primary);
+  height: 50px;
+  place-items: center;
+}
+
+#alertBtn {
+  width: 50px;
+  height: 50px;
+  color: var(--accent2);
+  font-size: 2rem;
+  grid-column: -1;
+}
+.alert {
+  font-weight: bold;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  grid-column: 1/2;
+}
+
+/* -----MAIN------------------------- */
+
+/* -.-HOME-.-................. */
+#index_main > div:nth-child(3) > img {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+#index_main > div:nth-child(3) {
+  text-align: justify;
+}
+
+#index_main > div:nth-child(1) {
+  display: grid;
+  place-items: center;
+}
+
+#index_main > div:nth-child(4) {
+  text-align: center;
+}
+
+.reservebtn {
+  text-decoration: none;
+  color: var(--accent1);
+  background-color: var(--accent2);
+  /* background-image: linear-gradient(var(--accent2), var(--secondary)); */
+  padding: 1em;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px var(--accent1);
+  border-radius: 1rem;
+}
+
+.reservebtn:hover,
+footer form input.submitBtn:hover {
+  padding: 1.1em;
+  background-image: linear-gradient(var(--accent2), var(--secondary));
+}
+
+#index_main > div:nth-child(2) > p {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* -.-TEMPLE-.-............... */
+
+#temple_main {
+  display: grid;
+  place-items: center;
+}
+
+.temple_cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.temple_cards section {
+  background-color: var(--primary3);
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 2rem;
+  width: 100%;
+}
+
+.temple_cards section img {
+  width: 100%;
+}
+
+.like_btn {
+  display: inline;
+}
+
+.likeIcon,
+.likeIcon2 {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: aqua;
+}
+
+.liked,
+.liked2 {
+  color: #f76c5e;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.unliked {
+  color: #504746;
+  font-family: "Material Icons";
+  font-size: 24px; /* Preferred icon size */
+}
+
+/* -.-RESERVATION-.-.......... */
+
+#reservation_main {
+  display: grid;
+  place-items: center;
+  background-image: url(../images/room6.jpg);
+  background-position: center;
+  background-size: cover;
+  /* height: 700px; */
+}
+
+#reservation_main form,
+#mission_main form {
+  background-color: var(--primary2);
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+#reservation_main form label input,
+#reservation_main form label select,
+#reservation_main form label textarea {
+  -webkit-appearance: none;
+  display: block;
+  padding: 0.75rem;
+}
+
+form label input,
+form label select,
+form label textarea {
+  /* -webkit-appearance: none; */
+  display: block;
+  padding: 0.75rem;
+}
+
+/* #reservation_main > div > form > fieldset:nth-child(3) {
+  text-align: ;
+} */
+
+#reservation_main form textarea,
+#mission_main form textarea {
+  width: 100%;
+  height: 5rem;
+}
+
+/* -.-SERVICES-.-............. */
+#services_main {
+  display: grid;
+  place-items: center;
+  background-image: url(../images/breakfast.webp);
+  /* background-position: center; */
+  background-size: cover;
+}
+
+#services_main div {
+  box-shadow: 5px 5px 5px var(--accent1);
+  background-color: var(--primary3);
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* -.-RECEPTION-.-............ */
+/* -.-MISSIONARY-.-........... */
+
+#mission_main > div:nth-child(2) {
+  width: 50%;
+}
+
+#mission_main > div:nth-child(2) > form > fieldset:nth-child(2) {
+}
+
+/* -----FOOTER----------------------- */
+footer,
+footer p {
+  background-color: var(--secondary);
+  /* color: black; */
+  /* padding: 30px; */
+}
+
+footer form {
+  display: block;
+  padding-top: 10px;
+}
+
+footer form label input,
+footer form label select,
+footer form textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 90%;
+  background-color: rgba(243, 239, 239, 0.1);
+}
+
+footer form textarea {
+  height: 90px;
+}
+
+::placeholder {
+  color: var(--accent2);
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: var(--accent2);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  /* margin: 0 0 2rem 2%; */
+  width: 50%;
+  max-width: 20rem;
+  min-width: 8rem;
+  box-shadow: 5px 5px 5px var(--accent1);
+}
+
+footer form input.submitBtn:hover {
+  cursor: pointer;
+}
+
+footer form label input:required {
+  border-left: var(--accent2) solid 6px;
+}
+
+footer form label input:required:valid {
+  border-left: rgb(125, 190, 95) solid 6px;
+}
+
+.footer2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.icons_footer {
+  grid-column: -1;
+}
+
+footer iframe {
+  width: 100%;
+  height: 90%;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Glory&family=Petit+Formal+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <script defer src="js/javascript.js"></script>
+    <script defer src="js/weather.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <a href="index.html"
+          ><img
+            src="images/templeinn_logo_sm.png"
+            alt="logo of Temple Inn & Suites"
+            class="logo"
+        /></a>
+        <!-- <h1>Get a peaceful rest</h1> -->
+        <div class="icons">
+          <a href="https://www.linkedin.com"
+            ><img src="images/linkedin.png" alt="LinkedIn icon" class="icon"
+          /></a>
+          <a href="https://www.facebook.com"
+            ><img src="images/facebook.png" alt="Facebook icon" class="icon"
+          /></a>
+        </div>
+        <nav>
+          <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="navList">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <ul class="subNavList">
+              <li><a href="reception.html">reception</a></li>
+              <li><a href="missionary.html">Temple Missionary</a></li>
+            </ul>
+          </ul>
+        </nav>
+      </header>
+      <div class="alertbanner">
+        <p class="alert">Weather Alert:</p>
+        <button id="alertBtn"><span>X</span></button>
+      </div>
+      <main id="index_main">
+        <div>
+          <!-- <h2>Make a Reservation</h2> -->
+
+          <h3>Ready to reserve a room with us?</h3>
+          <a href="reservation.html" class="reservebtn">Book Now</a>
+        </div>
+        <div>
+          <h2>Contact Info</h2>
+          <p>
+            Temple Inn headquarter: <br />
+            <br />
+            4800 Montgomery Ln #300, <br />
+            Bethesda, MD 20814 <br /><br />
+            (999) 123-4567 <br />
+          </p>
+        </div>
+        <div>
+          <h2>Temple Summary</h2>
+          <h3>Ft Lauderdale, Florida Temple</h3>
+          <p>
+            On October 3, 2009, President Thomas S. Monson announced that
+            Florida's second temple would be built in the area of Fort
+            Lauderdale in southeastern Florida. The temple serve members living
+            in South Florida and the Bahamas. <br />
+            The Fort Lauderdale Florida Temple is a 28,000-square-foot building
+            described in application materials as "an interpretation of
+            Neoclassicism with arches, columns and a steeple." The temple
+            feature a sun and palm tree motif with beautiful murals in the
+            first-stage endowment room, inspired by local landscapes.
+            <br /><br />
+            Address: <br />
+            3901 SW 154th Avenue <br />
+            Davie, Florida 33331 United States <br />
+            Telephone: (+1) 954-382-8390 <br />
+          </p>
+          <img
+            src="images/ft_temple2_small.jpg"
+            alt="LDS temple in Fort Lauderdale, Florida"
+          />
+        </div>
+        <div>
+          <h2>Current Weather</h2>
+          <img src="js" alt="js" class="weatherIcon" />
+          <p class="weather"></p>
+          <p class="description"></p>
+          <p class="humidity"></p>
+          <p class="forecast1">day1</p>
+          <p class="forecast2">day2</p>
+          <p class="forecast3">day3</p>
+        </div>
+      </main>
+      <footer>
+        <div class="footer1">
+          <form method="get" action="thanks.html">
+            <fieldset>
+              <legend>Contact Us</legend>
+              <label
+                >Full Name*: <input type="text" name="fname" required
+              /></label>
+              <label
+                >Email*:
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="me@email.com"
+                  required
+                />
+              </label>
+              <label
+                >Cell Phone: <input type="tel" name="phone" required
+              /></label>
+              <textarea
+                name="description"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Questions/Comments"
+              ></textarea>
+
+              <!-- <p class="dateModified"></p> -->
+              <input type="submit" value="Contact Us" class="submitBtn" />
+            </fieldset>
+          </form>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370329233!2d-77.09772584910274!3d38.983255949383505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1648309353808!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer2">
+          <p>Copyright Temple Inn & Suites</p>
+          <p id="dateModified">Last Updated date_updated time_updated</p>
+          <div class="icons_footer">
+            <a href="https://www.linkedin.com"
+              ><img src="images/linkedin.png" alt="LinkedIn icon" class="icon"
+            /></a>
+            <a href="https://www.facebook.com"
+              ><img src="images/facebook.png" alt="Facebook icon" class="icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
